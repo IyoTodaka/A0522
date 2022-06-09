@@ -11,7 +11,7 @@ public class Exercise3 {
         inDAta = d.nextInt();
 
         for(int i = 1; i <= 10; i++){
-            System.out.print(inDAta + " x " + i + " = " + inDAta*i + "  ");
+            System.out.println(inDAta + " x " + i + " = " + inDAta*i + "  ");
 
         }
         d.close();
