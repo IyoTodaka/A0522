@@ -4,19 +4,19 @@ public class Exercise1 {
 
     public static void main(String[] args) {
         
-        Scanner num = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("Input the start: ");
-        int start = num.nextInt();
+        int start = s.nextInt();
 
         System.out.print("Input the End: ");
-        int end = num.nextInt();
+        int end = s.nextInt();
 
         for(; start <= end;){
             System.out .print(start + " ");
             start++;
         }
 
-        num.close();
+        s.close();
     }
     
 }
