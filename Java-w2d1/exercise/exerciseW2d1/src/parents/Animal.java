@@ -7,8 +7,6 @@ public class Animal {
     private String animalType;
     private String bloodType;
 
-    
-
 
     public Animal() {
         this.height = 100;
