@@ -13,16 +13,16 @@ public class Calculator {
 
 
  
-    double add(){
+    public double add(){
         return num1+num2;
     }
-    double substract(){
+    public double substract(){
         return num1-num2;
     }
-    double multiply(){
+    public double multiply(){
         return num1*num2;
     }
-    double divide(){
+    public double divide(){
         return num1/num2;
     }
 
