@@ -3,17 +3,14 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-            
-
-        Scanner s = new Scanner(System.in);
         
+        Scanner s = new Scanner(System.in);
         
         while(true){
             double num1;
             double num2;
             String ope;
             
-
             System.out.println("Please type the first number");
             num1 = s.nextDouble();
 
@@ -46,8 +43,6 @@ public class App {
 
             }
 
-            
-            
             System.out.println("Do you want to continue or quit?");
 
             if(s.next().equals("continue")){

@@ -1,8 +1,12 @@
-import java.util.function.DoubleBinaryOperator;
+//import java.util.function.DoubleBinaryOperator;
 
 public class Memo {
     
     public static void main(String[] args) {
+
+        Bank BankPrint = new RbcBank();
+        BankPrint.print();
+
     // byte v = -128;
 
     // int V = 10.128952248;
@@ -17,13 +21,25 @@ public class Memo {
 
     // System.out.println("Value of the equation is " + value);
 
-        float x = 4;
-        x *= 5;
-        x -= 6;
-        x += 1;
-        x /= 2;
+    //     float x = 4;
+    //     x *= 5;
+    //     x -= 6;
+    //     x += 1;
+    //     x /= 2;
 
-        System.out.println(x);
+    //     System.out.println(x);
+     }
+
+}
+
+class Bank{
+        public void print(){
+            System.out.println("prining bank");
+        }
+}
+
+class RbcBank extends Bank{
+    public void print(){
+        System.out.println("RBC bank");
     }
-
 }
