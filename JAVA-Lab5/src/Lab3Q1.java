@@ -18,7 +18,7 @@ public class Lab3Q1 {
         System.out.println(arrayList);
         System.out.println("Please type the number");
         int num = s.nextInt();
-		
+		 
         if(Arrays.asList(arrayList).contains(num)){
             System.out.println(num + " is Found!");
        }
