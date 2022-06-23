@@ -16,6 +16,7 @@ class GenericsExercise {
     }
 }
 
+
 class GenericClass{
     
     public static <T extends Number> T maximum(T obj1, T obj2, T obj3){
