@@ -26,6 +26,7 @@ public class Lab3Q2 {
         System.out.println("\ncopyList:");
         for(int i: copyList){
             System.out.print(i + " ");
+
         }
 	}
 

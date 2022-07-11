@@ -1,8 +1,6 @@
 {
-    "java.project.sourcePaths": [
-        "JAVA-Lab5/src",
-        "JAVA-w3d3/src"
-    ],
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Program Files\\Java\\javafx-sdk-18.0.1\\lib\\javafx.base.jar",
