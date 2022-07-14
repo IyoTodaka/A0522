@@ -134,9 +134,9 @@ class Room{
                     break;
                 case "D":
                     this.movedRoom = false;
-                    System.out.println(frame + "\nPlease enter the [first] password.");
+                    System.out.print(frame + "\nPlease enter the [first] password.\n⇒  ");
                     String pass1 = s.nextLine();
-                    System.out.println(frame + "\nPlease enter the [second] password.");
+                    System.out.print(frame + "\nPlease enter the [second] password.\n⇒  ");
                     String pass2 = s.nextLine();
                     endJudge(pass1,pass2);
                     break;
@@ -146,7 +146,6 @@ class Room{
                     System.out.println(frame);
                     System.out.println("[Check the bed]\n");
                     System.out.println("There was a notepaper under the pillow.");
-                    System.out.println("My favorite is books, second is flowers.");
                     System.out.println("========================");
                     System.out.println("|   [RED]   |   [RED]  |");
                     System.out.println("|-----------|----------|");
