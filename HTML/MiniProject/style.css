@@ -355,7 +355,7 @@
         width: 80%;
         margin-left: 10%;
         background: #fff;
-        height: 30px;
+        height: 20px;
         font-size: 3vw;
     }
 
@@ -370,11 +370,9 @@
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        
-        
+    
         margin-left: 10%;
-        
-        
+          
       }
 
       .box10 + .box20 {
@@ -382,5 +380,23 @@
       }
       .box20 + .box30 {
         margin-left: 20px;
-      }
+    }
+
+    .youtube{
+        width: 80%;
+        margin-left: 11%;
+    }
+
+    .youtube1 + .youtube2 {
+        margin-left: 40px;
+    }
+    .video{
+        
+        width: 80%;
+        margin-left: 10%;
+        background: #fff;
+        height: 30px;
+        font-size: 3vw;
+    }
+
 }
