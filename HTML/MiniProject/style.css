@@ -268,6 +268,7 @@
     margin: 2em 0.8em;
     background: #f1f1f1;
     box-shadow:  2px 4px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
     
 }
 .box10 .box-title {
@@ -278,6 +279,7 @@
     color: #FFF;
     font-weight: bold;
     letter-spacing: 0.05em;
+    
 }
 .box10 p {
     padding: 15px 20px;
@@ -286,6 +288,10 @@
     color:#262d29;
     font-weight:500; 
     background: rgba(251, 251, 251, 0.475);
+    
+   
+   
+    
 }
 .box10 .img1 {
     background: url('img/image1.jpg') no-repeat center center/cover;
@@ -297,6 +303,7 @@
     margin: 2em 0.8em;
     background: #f1f1f1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
 }
 .box20 .box-title {
     font-size: 1.2em;
@@ -325,6 +332,7 @@
     margin: 2em 0.8em;
     background: #f1f1f1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
 }
 .box30 .box-title {
     font-size: 1.2em;
@@ -388,15 +396,20 @@
     }
 
     .youtube1 + .youtube2 {
-        margin-left: 40px;
+        margin-left: 6%;
+        
+
+       
     }
     .video{
         
         width: 80%;
-        margin-left: 10%;
+        margin-left: 5%;
         background: #fff;
         height: 30px;
         font-size: 3vw;
+        
+       
     }
 
 }
