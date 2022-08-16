@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* type/element selector */
+        body {
+            background-color: #333;
+        }
+
+        /* . is for classes */
+        .primary-heading {
+            background-color: #f4f4f4;
+        }
+
+        /* # is for IDs */
+        #welcome {
+            background-color: blue;
+        }
+
+        /* multiple selectors */
+        #welcome, #about{
+            color: white;
+        }
+
+        /* nested selectors */
+        #welcome p {
+            border: 5px solid #ccc;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa ratione quasi perferendis culpa esse nisi dolor corporis, delectus dolore maxime eos sed aperiam, sint inventore at labore consequatur est illo.</p>
+    </div>
+    <div id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum porro sunt rem vitae enim natus odio omnis, optio eius commodi numquam, fugit possimus pariatur dicta magnam obcaecati et nesciunt doloremque.</p>
+    </div>
+</body>
+</html>
