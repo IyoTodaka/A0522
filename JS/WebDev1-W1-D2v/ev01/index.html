@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two way NOT to use events</title>
+</head>
+<body>
+    <h1>This is a title</h1>
+
+    <button on onmouseover="alert('YOU CLICKED ME!')">Click Me!</button>
+
+    <button onclick="alert('YOU CLICKED ME AGAIN!!')">Click Me!</button>
+
+    <button onclick="greet()">Click Me!</button>
+
+    <script>
+        function greet(){
+            alert('WHY DID YOU CLICK AGAIN?!?!?!')
+        }
+    </script>
+</body>
+</html>

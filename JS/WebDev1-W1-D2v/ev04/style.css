@@ -1,0 +1,9 @@
+#boxes{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
