@@ -12,7 +12,7 @@ function isTouching(a, b) {
 
 //スコア表示
 // const bodyTag = document.querySelector("body");
-// const tag = document.querySelector("h1");
+// const h1 = document.querySelector("h1");
 // var cScore = 0;
 // tag.textContent =`Score: ${cScore}`;
 
