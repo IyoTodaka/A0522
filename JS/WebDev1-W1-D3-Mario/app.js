@@ -12,7 +12,7 @@ function isTouching(a, b) {
 
 //スコア表示
 const bodyTag = document.querySelector("body");
-const h1 = document.querySelector("h1");
+var h1 = document.querySelector("h1");
 var cScore = 0;
 
 
@@ -38,8 +38,8 @@ const init = () => {
         }
 
 
-        if(isTouching(avatar,coin)) moveCoin();
-        cScore++
+        if(isTouching(avatar,coin))moveCoin();
+        cScore++;
         h1.textContent =`Score: ${cScore}`;
     }
     );
