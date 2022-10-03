@@ -60,10 +60,7 @@ async function fetchPosts() {
         postElClone.querySelector("button").addEventListener("click", {id: post.id, handleEvent: deleteData})
         
         listElement.appendChild(postElClone);
-        
-        
       }
-     
     })
     .catch((err) => {
       console.error("Error Message => ", err);
