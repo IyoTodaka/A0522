@@ -18,7 +18,6 @@ function sendHttpRequest(method, url, data) {
   //     };
   //     xhr.send();
   //   });
-
   //   return promise;
 
   //with fetch function
@@ -41,7 +40,6 @@ async function fetchPosts() {
   //         postElClone.querySelector('p').textContent = post.body
   //         postElClone.querySelector('li').id = post.id
   //         listElement.appendChild(postElClone)
-
   //       }
   //   }).catch(err => {
   //     console.error('Error Message => ', err)
