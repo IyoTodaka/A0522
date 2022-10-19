@@ -1,0 +1,104 @@
+CSSで効果を付けたい画像やボタンに
+visibility : hidden 
+を指定していないと効果が出ない
+
+
+↓　JSファイルに記述
+
+gsap.to
+gsap.from
+gsap.timeline
+
+
+
+autoAlpha 画像が消えた状態から表示させる
+y:-100
+x:-100
+
+表示させる場所の指定(上から落ちてくるように表示とか)
+
+
+duration 表示にかかる時間指定
+
+ease:"elastic.out(1,0.3)"
+
+repeat:-1 繰り返し回数　-1は永遠
+
+yoyo:true　逆再生させる
+
+repeatDelay:リピートにかける時間指定
+
+delay:表示にかける時間
+
+
+
+stagger:{
+
+  each:0.5,
+  amount:1,
+
+  each:0.5,
+  from: "random"  eachと2つで表示させる順番をランダムにできる
+
+}
+
+
+
+複数のボタンをランダムな場所から表示させる
+gsap.from('.btn',{
+ duration :0.5,
+ autoAlpha: 0,
+ stagger: 0.2,
+ x:"random(-100, 100, 10)" //
+ y:"random([20,50,-60,-100,100])"
+
+}
+
+
+
+
+
+
+const img1 = document.querySelector('.img1')
+
+
+gsap.to(img1,{
+  keyframes: [
+      { duration}
+
+
+
+
+
+
+
+TIMELINE
+
+const TimeLine = gsap.timeline()
+
+TimeLine
+.from('.img1',{aytoAlipha:0, duration:1, y:-50})
+.from('.img2',{aytoAlipha:0, duration:1, y:-50}, "-=0.75")←前の画像が表示され終わる0.75秒前から表示を開始する
+.from('.img3',{aytoAlipha:0, duration:1, y:-50},2)←前の画像が表示され終わった2秒後から表示を開始する
+.from('h1',{aytoAlipha:0, duration:1, y:-50},"<")←前の画像と同時に表示を始める
+.from('p',{aytoAlipha:0, duration:1, y:-50})
+
+↑img1から順番に表示される
+
+
+
+const TimeLine = gsap.timeline()
+
+defaults:{
+    duration: 0,
+    autoAlpha:0,
+    ease: "bounce"
+},
+repeat: -1,
+yoyo: true,
+
+
+
+
+
+
