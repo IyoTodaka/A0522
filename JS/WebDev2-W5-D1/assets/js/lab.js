@@ -6,5 +6,4 @@ TimeLine
 .from('.tagline',{autoAlpha:0, diration:1, y: 50 })
 .from('.desc',{autoAlpha:0, diration:1, y: 50 },"<")
 
-
 .from('.beer',{autoAlpha:1, diration:1, y: -1000 })
