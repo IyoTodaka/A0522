@@ -100,5 +100,59 @@ yoyo: true,
 
 
 
+scrollTrigger　⇒スクロールするたびにアクションが起こる
+ 
 
 
+scrollTrigger:{
+
+  trigger: '.b2 h2',
+  markers: true,
+
+  start:"top 50%",
+  start:"top bottom-=20%",←レスポンシブ
+　end:"top 50%"
+
+  scrub:true ⇒スクロールにあわせてじわじわとアニメーションが動作する
+}
+
+
+ScrollTrigger :{
+
+
+
+}
+
+
+
+scrollTrigger :{
+
+  
+
+}
+
+
+
+■PIN　スクロールしても画面内にとどめる
+
+const src = [
+
+  "assets/images/goomu.png",
+  "assets/images/goomu.png",
+  "assets/images/goomu.png",
+  "assets/images/goomu.png",
+
+]
+
+
+ScrollTrigger.create :{
+　trigger: '.sections',
+  pin: '.tooltip',
+  start: '40%',
+  end: ''
+　　
+
+}
+
+
+19882003bB!

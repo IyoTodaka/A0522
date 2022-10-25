@@ -1,0 +1,4 @@
+tsc   index.ts  ⇒
+
+ts-node   index.ts⇒ jsファイルを作成せずに
+コンソール上にファイルのあ内容を表示させてくれる
