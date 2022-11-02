@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/materialize-css@1.0.0/dist/css/materialize.min.css"/>
+    <!-- REACT API -->
+    <script src="https://unpkg.com/react@17.0.0/umd/react.production.min.js" crossorigin></script>
+    <!-- REACT DOM -->
+    <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.production.min.js" crossorigin></script>
+    <!-- BABEL COMPILER -->
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js" crossorigin></script>
+    <script type="text/babel" src="./CardComponent.jsx"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const dogs = [
+        {
+          name: "Bulldog French",
+          image: "https://images.dog.ceo/breeds/bulldog-french/n02108915_4860.jpg",
+        },
+        {
+          name: "Frise Bichon",
+          image: "https://images.dog.ceo/breeds/frise-bichon/3.jpg",
+        },
+        {
+          name: "Havanese",
+          image: "https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191103202017556_COVER.jpg",
+        },
+      ];
+
+      const root = (
+        <div className="row">
+          <CardComponent name={dogs[0].name} dogImage={dogs[0].image} />
+          <CardComponent name={dogs[1].name} dogImage={dogs[1].image} />
+          <CardComponent name={dogs[2].name} dogImage={dogs[2].image} />
+        </div>
+      )
+
+      ReactDOM.render(root, document.getElementById('root'))
+    </script>
+</body>
+</html>
