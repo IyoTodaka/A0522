@@ -237,7 +237,7 @@ class Room{
 
         }else{
             System.out.println("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=");
-            System.out.println("[Look through the hole in the wall]\n");
+            System.out.println("[Look through the hole in the wall]\n");  
             System.out.println("I saw eye to eye with someone");
             System.out.println("===========");
             System.out.println("|         | ");
