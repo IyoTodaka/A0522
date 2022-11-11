@@ -52,6 +52,7 @@ class App extends React.Component {
   }
   
 
+  
   render(){
     const { searchTerm, result } = this.state
     const page = (result && result.page) || 0
