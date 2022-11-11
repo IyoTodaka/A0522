@@ -68,6 +68,7 @@ class App extends React.Component {
           </Search>
         </div>
 
+
         {/* Table Component */}
         { result && (<Table list={result.hits} />) }
 
