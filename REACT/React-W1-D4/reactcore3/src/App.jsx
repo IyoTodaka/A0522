@@ -51,7 +51,7 @@ class App extends React.Component {
     this.fetchSearchTopStories(searchTerm)
   }
   
-
+ 
   
   render(){
     const { searchTerm, result } = this.state
