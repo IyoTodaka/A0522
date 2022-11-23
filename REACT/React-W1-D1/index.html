@@ -20,7 +20,7 @@
         const name = "Pembroke Welsh Corgi";
         const imageURL = "https://images.dog.ceo/breeds/pembroke/n02113023_6015.jpg";
 
-        const markup = (
+        const markupJSX = (
             <div class="row">
                     <div class="col s2">
                         <div class="card medium">
@@ -37,7 +37,8 @@
 
 
         
-        const markup2 = React.createElement(
+        //Lab 1
+        const markupAPI = React.createElement(
             'div',{className:'row'} , [
                 React.createElement(
                     'div', {className:'col s2'}, [
@@ -46,6 +47,7 @@
                                 React.createElement(
                                     'div', {className:'card-image'}, [
                                         React.createElement(
+                                            //{src:imageURL}の後の3つ目の引数は無ければ省略してもいい
                                             'img', {src:imageURL}, 
                                         )
                                     ]
@@ -65,7 +67,7 @@
         )
 
         const greeting = React.createElement("h1", { id: "hello-style" }, "Good morning hikari")
-        ReactDOM.render(markup2, document.getElementById('root'))
+        ReactDOM.render(markupAPI, document.getElementById('root'))
     </script>
 </body>
 </html>
