@@ -33,6 +33,7 @@ export default class ChallengeTwo extends Component {
     this.setState((prevState) => ({
       arr: prevState.arr.sort((a,b) => 0.5 - Math.random())
     }))
+
   }
 
   render() {

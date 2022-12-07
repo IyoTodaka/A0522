@@ -6,7 +6,6 @@ import right from '../assets/look-right.jpeg'
 
 class ChallengeOne extends Component {
 
-
   //declare the state here
   //初期の目の位置が右なのでleftにしておく
   state = {
