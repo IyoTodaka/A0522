@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+
+    <% if(repos.length === 0) { %>
+        <h3>User has no repos</h3>
+    <% } else { %>
+        <h3>Repositories</h3>
+        <ul>
+            <% repos.forEach(repo => { %>
+                <li>
+                    <h4><a href="<%= repo.url %>"><%= repo.name %></a></h4>
+                    <p>
+                        <%= repo.description %>
+                    </p>
+                </li>
+            <% }) %>
+        </ul>
+    <% } %>
+    
+<%- include('partials/footer.ejs') %> 

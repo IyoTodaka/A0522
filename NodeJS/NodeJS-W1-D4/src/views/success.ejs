@@ -1,0 +1,9 @@
+<%- include('partials/header.ejs') %>
+
+    <% if(!username){ %>
+        <h3>Welcome Guest</h3>
+    <% }else{ %>
+        <h3>Welcome <%= username %></h3>
+    <% } %>
+    
+<%- include('partials/footer.ejs') %> 
