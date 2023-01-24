@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.input-field input {
+    padding: 0.8rem;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+form input[type="submit"] {
+    background:  #4776E6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
