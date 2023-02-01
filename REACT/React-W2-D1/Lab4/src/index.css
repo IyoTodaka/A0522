@@ -65,8 +65,10 @@ h1 {
 
 .Field__HelperMessage {
   font-size: 0.7em;
-  color: red;
+  color: red; 
 }
+
+
 
 .Buttons {
   display: flex;
@@ -81,3 +83,82 @@ h1 {
   color: white;
   border-radius: 2em;
 }
+.DisabledButton{
+  font-size: 0.8rem;
+  padding: 0.7em 2em;
+  border: none;
+  background-color: rgb(143, 143, 143,0.6);
+  color: rgb(163, 163, 163);
+  border-radius: 2em;
+}
+
+ /* Fieldコンポーネントで定義したinputタグ27行目 */
+ input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* 入力欄 */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* ユーザーが入力欄をクリックした際に表示されるスタイル*/
+#mailMessage {
+  display:none;
+  background: #000000;
+  color: rgb(255, 0, 0);
+  position: relative;
+  padding: 20px;
+  margin-top: 0px;
+}
+#pwdMessage {
+  display:none;
+  background: #000000;
+  color: rgb(255, 0, 0);
+  position: relative;
+  padding: 20px;
+  margin-top: 0px;
+}
+#mailMessage p {
+  /* padding: 0px 0px; */
+  font-size: 12px;
+}
+#pwdMessage p {
+  /* padding: 0px 0px; */
+  font-size: 12px;
+}
+
+/* 入力が正しかった際に文字を緑色にする */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✓";
+}
+
+/* 入力が誤っていたいた場合に文字を赤くする */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+} 

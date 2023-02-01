@@ -8,9 +8,11 @@ exports.getAllBooks = (req, res) => {
     .catch((err) => console.error(err.message));
 };
 
+
 exports.getCreateBook = (req, res) => {
   res.render("create", { model: {} });
 };
+
 
 exports.postCreateBook = (req, res) => {
   const { Title, Author, Comments } = req.body;
@@ -23,6 +25,7 @@ exports.postCreateBook = (req, res) => {
     })
     .catch((err) => console.error(err.message));
 };
+
 
 exports.getEditBookById = (req, res) => {
   const id = req.params.id;

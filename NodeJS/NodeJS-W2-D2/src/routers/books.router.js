@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 const {
-  getAllBooks,
+
   getCreateBook,
   postCreateBook,
   getEditBookById,
