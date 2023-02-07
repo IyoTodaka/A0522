@@ -6,7 +6,10 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT
 
+
+//使用するデータ型がJSON型である事の宣言が必要なのでここで宣言しておく
 app.use(express.json())
+
 
 app.use('/check', (_, res) => res.json({ message: "Health check"}))
 app.use('/api', require('./routes'))
