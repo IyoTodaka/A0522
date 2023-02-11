@@ -1,0 +1,21 @@
+{
+  "name": "part1-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
