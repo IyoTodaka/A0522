@@ -1,0 +1,16 @@
+{
+  "name": "part3-vitest-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.test.js",
+  "type":"module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.28.4"
+  }
+}
