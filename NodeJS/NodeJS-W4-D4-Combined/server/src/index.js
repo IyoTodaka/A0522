@@ -25,7 +25,7 @@ app.use('/api', require('./routes'))
 // catch 404 and forward to error handler
 app.use((req,res,next) => {
     const err = new Error("Route not found")
-    err.status = 404
+    err.status = 403
     next(err)
 })
 
