@@ -12,6 +12,7 @@ const signUpController = async (req, res, next) => {
 
 const signInController = async (req, res, next) => {
     const { email, password } = req.body
+    console.log(password)
     const signInService = await signIn(email, password)
     return res.json(signInService)
 }
