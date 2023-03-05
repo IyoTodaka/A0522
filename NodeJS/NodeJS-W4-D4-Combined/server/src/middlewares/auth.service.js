@@ -28,6 +28,7 @@ const signUp = async (data) => {
     })
 }
 const signIn = async (email, password) => {
+    console.log(password);
     let user = await User.findOne({ email })
 
     // if(!user) throw new Error("User does not exists. Please try again")
