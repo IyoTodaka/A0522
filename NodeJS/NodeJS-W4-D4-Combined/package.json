@@ -10,7 +10,7 @@
     "dev": "npm-run-all --parallel client server"
   },
   "workspaces": [
-    "server",
+    "./server",
     "client"
   ],
   "keywords": [],
