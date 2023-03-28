@@ -12,6 +12,8 @@ app.use(express.json())
 
 
 app.use('/check', (_, res) => res.json({ message: "Health check"}))
+
+//  '/api'にリクエストが飛んで来たら、'./routes'を見に行ってという命令
 app.use('/api', require('./routes'))
 
 // app.use((req,res,next) => {
