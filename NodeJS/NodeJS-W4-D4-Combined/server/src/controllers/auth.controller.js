@@ -1,3 +1,6 @@
+//controllerに大まかな内容を書いて、詳細な動きは
+//middlewareに書く
+
 const {
   signUp,
   signIn,
