@@ -18,7 +18,7 @@ const oneDay = 24 * 60 * 60 * 1000;
 app.use(
   sessions({
     secret: process.env.SECRET_KEY,
-    saveUninitialized: true,　
+    saveUninitialized: true,
     resave: false,
     cookie: { maxAge: oneDay }
   })
