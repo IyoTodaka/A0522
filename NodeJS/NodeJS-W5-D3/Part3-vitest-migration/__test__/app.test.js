@@ -93,7 +93,6 @@ test("compile and throw unexpected error", () => {
     expect(() => compileWithError()).toThrow(/wrong/)
 })
 
-
 import { add } from '../math'
 
 it('should yield the expected sum of two numbers', () => {
